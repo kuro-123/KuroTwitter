@@ -1,0 +1,10 @@
+#
+# plugin settings
+#
+name: KuroTwitter
+version: ${project.version}
+main: host.kuro.kurotwitter.KuroTwitter
+api-version: 1.15
+authors: [kuro-123]
+description: Twitter plugin for 123 server culture spigot
+website: http://kuro.host/wordpress/
