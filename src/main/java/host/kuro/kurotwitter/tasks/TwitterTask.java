@@ -67,7 +67,7 @@ public class TwitterTask extends BukkitRunnable {
                 sb.append("\n");
                 sb.append(ChatColor.WHITE);
                 sb.append(mes);
-                sb.append("\n");
+                sb.append("\n\n");
                 count++;
             }
             Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + new String(sb));
