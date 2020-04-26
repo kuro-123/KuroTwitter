@@ -1,6 +1,22 @@
 #
 # plugin config
 #
-
 # DEBUG MODE
 debug: false
+
+Twitter:
+  # api setting
+  ConsumerKey: ""
+  ConsumerSecret: ""
+  AccessToken: ""
+  AccessTokenSecret: ""
+  BroadcastID: 0
+  # task setting
+  TaskDelay: 100
+  TaskPeriod: 72000
+  # message setting
+  DateFormat: "yy/M/d (E) H:m"
+  TitleName: "OFFICIAL TWITTER MESSAGES"
+  LatestCount: 5
+  UserNameMaxLength: 16
+  MessageMaxLength: 48

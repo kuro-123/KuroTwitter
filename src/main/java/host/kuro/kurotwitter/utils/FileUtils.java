@@ -1,4 +1,4 @@
-package host.kuro.KuroTwitter.utils;
+package host.kuro.kurotwitter.utils;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

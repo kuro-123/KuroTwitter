@@ -1,6 +1,6 @@
-package host.kuro.KuroTwitter.lang;
+package host.kuro.kurotwitter.lang;
 
-import host.kuro.KuroTwitter.utils.FileUtils;
+import host.kuro.kurotwitter.utils.FileUtils;
 import org.bukkit.Bukkit;
 
 import java.io.IOException;
