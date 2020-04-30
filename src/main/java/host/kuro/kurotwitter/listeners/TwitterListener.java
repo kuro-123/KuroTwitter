@@ -2,6 +2,7 @@ package host.kuro.kurotwitter.listeners;
 
 import host.kuro.kurotwitter.KuroTwitter;
 import host.kuro.kurotwitter.lang.Language;
+import host.kuro.kurotwitter.utils.SoundUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import twitter4j.Status;
@@ -31,5 +32,6 @@ public class TwitterListener extends StatusAdapter {
         }
         sb.append(mes);
         Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + new String(sb));
+        SoundUtils.BroadcastSound("news");
     }
 }

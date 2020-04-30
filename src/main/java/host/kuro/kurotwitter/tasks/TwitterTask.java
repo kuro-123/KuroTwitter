@@ -3,6 +3,7 @@ package host.kuro.kurotwitter.tasks;
 import host.kuro.kurotwitter.KuroTwitter;
 import host.kuro.kurotwitter.lang.Language;
 import host.kuro.kurotwitter.utils.ErrorUtils;
+import host.kuro.kurotwitter.utils.SoundUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -71,6 +72,7 @@ public class TwitterTask extends BukkitRunnable {
                 count++;
             }
             Bukkit.broadcastMessage(ChatColor.LIGHT_PURPLE + new String(sb));
+            SoundUtils.BroadcastSound("news");
 
         } catch (Exception ex) {
             plugin.getLogger().warning(ErrorUtils.GetErrorMessage(ex));
